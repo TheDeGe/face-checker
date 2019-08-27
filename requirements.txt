@@ -1,0 +1,7 @@
+flask
+opencv-python
+pandas
+numpy
+cmake
+dlib
+face-recognition
