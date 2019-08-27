@@ -15,11 +15,13 @@ pandas 0.25.0+
 
 numpy 1.16.4+
 
+cmake 3.14.4+
+
 dlib 19.17+
 
 face-recognition 1.2.3+
 
-face-recognition - это wrapper dlib, поэтому dlib должен быть установлен заранее, для установки face-recognition на mac или linux используйте комманду:
+cmake требуется для установки dlib, а face-recognition - это dlib wrapper, поэтому cmake и dlib должны быть установлены заранее, для установки face-recognition на mac или linux используйте комманду:
 
 pip install face_recognition
 
