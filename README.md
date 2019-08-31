@@ -31,7 +31,7 @@ pip install --no-dependencies face_recognition
 
 Также для запуска программы можно собрать docker контейнер, для этого скачайте с оффициального сайта https://docs.docker.com/ и установите версию docker для своей операционной системы, затем поместите файлы server.py, Dockerfile и requirements.txt в отдельную папку на своём компьютере, запустите в ней коммандную строку и введите следующую комманду для создания образа:
 
-docker build -t face-checker .
+docker build --tag face-checker .
 
 после создания образа запустите его контейнер коммандой:
 
